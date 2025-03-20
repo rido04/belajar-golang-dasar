@@ -3,18 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	names := [...]string{"John", "Paul", "George", "Ringo", "Ridho", "Jamal"}
-	
-	slice1 := names[0:2]
-
+	names := [...]string{"John", "Paul", "George", "Ringo", "Ridho", "Jamal", "Kokom", "Riska"}
+	// ini akan mengambil data array dari index ke 3 sampai ke 4
+	slice1 := names[3:4]
 	fmt.Println(slice1)
 
+	// ini akan mengambil data array dari index paling awal sampai ke 4
 	slice2 := names[:4]
 	fmt.Println(slice2)
 
+	// ini akan mengambil data array dari yang ke 5 sampai ke yang palin terakhir
 	slice3 := names[5:]
 	fmt.Println(slice3)
 
+	// ini akan mengambil semua data di array
 	slice4 := names[:]
 	fmt.Println(slice4)
 
