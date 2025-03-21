@@ -26,4 +26,15 @@ func main(){
 	case false:
 		fmt.Println("Udah pas nih namanya")
 	}
+
+	// switch tanpa kondisi
+	length := len(nama)
+	switch{
+	case length > 10:
+		fmt.Println("Nama sudah panjang")
+	case length > 5:
+		fmt.Println("Nama lumayan panjang")
+	default:
+		fmt.Println("Nama terlalu pendek")
+	}
 }
