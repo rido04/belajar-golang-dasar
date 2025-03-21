@@ -73,8 +73,9 @@ func main() {
 	
 
 	// Copy Slice
-
+	// di awali dengan from slice, pilih array data array mana yang mau di copy
 	fromSlice := days[:]
+	// lalu di lanjut dengan toslice
 	// agar bisa di tampung semua datanya, perlu bikin slice
 	toSlice := make([]string, len(fromSlice), cap(fromSlice))
 
