@@ -27,7 +27,7 @@ func main(){
 		fmt.Println("Udah pas nih namanya")
 	}
 
-	// switch tanpa kondisi
+	// switch tanpa expression
 	length := len(nama)
 	switch{
 	case length > 10:
