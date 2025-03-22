@@ -18,4 +18,7 @@ func main(){
 	fmt.Println(result)
 	firstName, lastName := getFullName()
 	fmt.Println(firstName, lastName)
+	// jika hanya ingin mengambili salah satu dari value nya bisa pakai garis bawah _.
+	// firstName, _ := getFullName()
+	// fmt.Println(firstName)
 }
