@@ -40,10 +40,17 @@ func main(){
 	// maka data dari variabel orang1 dan orang2 akan sama, karena bukan diduplikasi, melainkan pass by reference
 	fmt.Println(orang1)
 	fmt.Println(orang2)
+	// contoh jika kita buat lagi
+	orang3:= &orang1
+	fmt.Println(orang3)
+	// lalu ubah lagi isi datanya
+	orang3.Nama = "Ujang"
 	
 	// jika isi datanya di ubah, maka dua variabel tersebut akan terkena dampak perubahan data nya
 	// jadi aslinya dia merubah orang1, karena melakukan pointer
 	orang2.Alamat = "Jakarta"
 	fmt.Println(orang1)
+	fmt.Println(orang3)
 	fmt.Println(orang2)
+	// data yang berubah adalah data terbaru yang di ubah
 }
