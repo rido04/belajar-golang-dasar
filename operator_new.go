@@ -17,7 +17,7 @@ func main(){
 	rumah1 := new(Home)
 	rumah2 := rumah1
 
-	rumah2.Warna = "Hjjau"
+	rumah2.Warna = "Hijau"
 	rumah2.Nomor = 20
 
 	fmt.Println(rumah1)
