@@ -11,6 +11,6 @@ import (
 
 func main(){
 	// lalu panggil function yang ada di file helped tadi yang sudah di import
-	result := helper.SayHello("Muhammad Ridho Febrian")
+	result := helper.SayHello(" Muhammad Ridho Febrian")
 	fmt.Println(result)
 }
